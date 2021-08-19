@@ -1,3 +1,123 @@
 body {
+  width: 1440px;
+  font-family: "Montserrat", sans-serif;
   background-color: rgb(150, 197, 219);
+}
+
+h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(199, 71, 0, 0.97);
+}
+
+p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1b1f;
+}
+
+.blue {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(8, 132, 155, 0.95);
+  margin-left: 120px;
+  margin-bottom: 97px;
+}
+
+.big {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 72px;
+  color: #141417;
+  margin-bottom: 48px;
+  margin-top: 4px;
+}
+
+.bold {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1b1b1f;
+  margin-bottom: 24px;
+}
+
+ul.hr {
+  margin: 0; /* Обнуляем значение отступов */
+  padding: 48px; /* Значение полей */
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(199, 71, 0, 0.97);
+}
+ul.hr li {
+  display: inline; /* Отображать как строчный элемент */
+}
+.expertise {
+  margin-left: 120px;
+}
+.stages {
+  margin-left: 108px;
+}
+.cases {
+  margin-left: 108px;
+}
+.instagram {
+  margin-left: 512px;
+}
+.behance {
+  margin-left: 48px; /* Отступ справа */
+}
+
+.photo {
+  background-image: url("01.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+}
+
+.about_me {
+  background-image: url("02.png");
+  background-repeat: no-repeat;
+  background-position: 67% 50%;
+}
+.about {
+  padding-top: 247px;
+  margin-right: 839px;
+  margin-left: 223px;
+}
+
+.botton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 16px 32px;
+  width: 223px;
+  height: 56px;
+  left: 223px;
+  top: 644px;
+  background: rgba(199, 71, 0, 0.97);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 20px rgba(238, 83, 49, 0.29);
+  border-radius: 33px;
+  margin-top: 48px;
+  margin-bottom: 188px;
+}
+
+.expertise {
+  margin-left: 120px;
 }
